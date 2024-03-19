@@ -5,6 +5,15 @@ VisualStudioVersion = 17.7.34302.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jabrel.GithubActions", "Jabrel.GithubActions\Jabrel.GithubActions.csproj", "{7275561E-A24D-4192-A6A4-70A2DA9E24DA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BF53D9D9-6812-4CEE-B88C-845A8A514F95}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jabrel.GithubActions.Domain", "Jabrel.GithubActions.Domain\Jabrel.GithubActions.Domain.csproj", "{C31B8AE1-2052-456E-8F0E-FB3C5F37AEDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jabrel.GithubActions.Tests", "Jabrel.GithubActions.Tests\Jabrel.GithubActions.Tests.csproj", "{CA87DC95-913F-45E0-9EAD-779DF4A4A5D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +24,14 @@ Global
 		{7275561E-A24D-4192-A6A4-70A2DA9E24DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7275561E-A24D-4192-A6A4-70A2DA9E24DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7275561E-A24D-4192-A6A4-70A2DA9E24DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C31B8AE1-2052-456E-8F0E-FB3C5F37AEDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C31B8AE1-2052-456E-8F0E-FB3C5F37AEDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C31B8AE1-2052-456E-8F0E-FB3C5F37AEDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C31B8AE1-2052-456E-8F0E-FB3C5F37AEDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA87DC95-913F-45E0-9EAD-779DF4A4A5D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA87DC95-913F-45E0-9EAD-779DF4A4A5D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA87DC95-913F-45E0-9EAD-779DF4A4A5D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA87DC95-913F-45E0-9EAD-779DF4A4A5D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
