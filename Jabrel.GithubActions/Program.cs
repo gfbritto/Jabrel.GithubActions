@@ -12,6 +12,7 @@ Console.WriteLine("4. Turn on");
 
 var action = Console.ReadLine();
 
+//teste
 switch (action)
 {
     case "1":
